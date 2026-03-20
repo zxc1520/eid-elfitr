@@ -269,7 +269,13 @@ export default function App() {
       </main>
 
       <footer className={`relative z-10 text-center py-6 px-4 transition-all duration-1000 delay-700 ${showContent ? "opacity-100" : "opacity-0"}`}>
-        <p className="text-emerald-500/60 text-xs tracking-widest uppercase">Idul Fitri 1447 H</p>
+        <p className="text-emerald-500/60 text-xs tracking-widest uppercase mb-2">Idul Fitri 1447 H</p>
+        <p className="text-emerald-600/50 text-xs flex items-center justify-center gap-1">
+          Made with <span className="text-red-400/70 animate-[pulse_1.5s_ease-in-out_infinite]">♥</span> by
+          <a href="https://www.linkedin.com/in/afifghulam/" target="_blank" rel="noopener noreferrer" className="text-emerald-400/70 hover:text-yellow-400/80 transition-colors duration-300 font-medium ml-1">
+            @afifghulam
+          </a>
+        </p>
       </footer>
     </div>
   );
